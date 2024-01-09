@@ -34,6 +34,7 @@ public class TipoCambioService {
                     existingTipoCambio.setMonto(tipoCambio.getMonto());
                     existingTipoCambio.setMonedaorigen(tipoCambio.getMonedaorigen());
                     existingTipoCambio.setMonedadestino(tipoCambio.getMonedadestino());
+                    existingTipoCambio.setTipoCambio(tipoCambio.getTipocambio());
                     existingTipoCambio.setMontocontipocambio(tipoCambio.getMontocontipocambio());
                     existingTipoCambio.setSolicitante(tipoCambio.getSolicitante());
                     existingTipoCambio.setFechasolicitud(tipoCambio.getFechasolicitud());
